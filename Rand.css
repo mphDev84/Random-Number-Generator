@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+:root{
+    --main-background-color:rgb(46, 40, 40);
+    --main-text-color:white;
+    --label-border-color:rgb(224, 88, 88);
+}
+body{
+    margin-top: 3rem;
+    background-color:var(--main-background-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    color:var(--main-text-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1rem;
+    font-size: 2.5rem;
+    border-left:solid var(--label-border-color)1px; 
+    border-right:solid var(--label-border-color)1px; 
+    padding: 0px 5px 0px 5px;
+}
+#min-label {
+    color:var(--main-text-color);
+    border-top:var(--label-border-color) solid 1px;
+    border-bottom:var(--label-border-color) solid 1px;
+    padding: 5px 0px 5px 0px;
+}
+#max-label {
+    color:var(--main-text-color);
+    border-top:var(--label-border-color) solid 1px;
+    border-bottom:var(--label-border-color) solid 1px;
+    padding: 5px 0px 5px 0px;
+}
+.label{
+    border-radius: 5px;
+    width:3.5rem;
+    height:2rem;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    margin-left: 10px;
+}
+#submitButton{
+    display: flex;
+    border-radius: 3px;
+    border: rgb(49, 3, 3) solid 5px;
+    padding: 5px 5px 5px 5px;
+    width:6rem;
+    justify-content: center;
+    background-color: red;
+}
+#submitButton:hover {background-color: #3e8e41}
+
+#submitButton:active {
+  background-color: #3e8e41;
+  box-shadow: 5px 5px 5px 5px rgb(174, 217, 241);
+  transform: translateY(3px);
+}
+#numArea{
+    font-size: 4rem;
+    background-color: white;
+    height:10rem;
+    color:black;
+    text-align: center;
+    padding-top: 4rem;
+    border-radius: 10px;
+    box-shadow: rgb(24, 22, 22) 3px 3px;
+    width:17rem;
+}
