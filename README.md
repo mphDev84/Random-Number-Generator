@@ -1,3 +1,3 @@
 # Random-Number-Generator
 A Random Number Generator!
-https://cdpn.io/mphDev84/debug/JjrNGNO/nqMwvzbYGGNk
+https://mphdev84.github.io/Random-Number-Generator/
